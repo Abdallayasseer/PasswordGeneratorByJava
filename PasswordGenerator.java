@@ -40,7 +40,8 @@ public class PasswordGenerator {
     }
 
     public static void main(String[] args) {
-        String password = generatePassword(20); // Password length
+        String password = generatePassword(64); // Password length
         System.out.println("Strong Password: " + password);
     }
 }
+
